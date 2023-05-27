@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+    /* background-size: cover; */
+}
+
+.login{
+    width:100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.bd{
+    background-image: url("../images/bg11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.signup{
+
+width: 97vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.round{
+    border-radius: 1.25rem!important;
+}
+
+.designation{
+    margin-top: 10px;
+}
+.mg{
+    margin-top: -40px;
+}
+
+.navbar {
+    overflow: hidden;
+    /* background-image: url("../images/n1.jpg"); */
+    /* background: linear-gradient(to right, #b2fefa, #0ed2f7);  */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index:1;
+  }
+  
+  /* Links inside the navbar */
+  .navbar  a ul form{
+    float: left;
+    display: block;
+    color: #171313;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  @media only screen and (min-width: 992px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      padding: 0 0.5em;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 2px solid white;
+    }
+  }
+
+
+  .main  {
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+
+  }  
+.footer{
+    overflow: hidden;
+    /* background: linear-gradient(to right, #000428, #004e92); */
+    /* background: linear-gradient(to right, #5f2c82, #49a09d); */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index:1;
+}
+
+.tooltip {
+    position: absolute;
+   
+   }
+  @media screen 
+  and (min-device-width: 700px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .followdiv{
+        position: fixed; /* Set the navbar to fixed position */
+        overflow: hidden;
+        right: 15px;
+        z-index:0;
+    }
+}
+.profile-pic{
+  flex-direction: column;
+}
+.bi{
+  cursor: pointer;
+}
+.icon-style{
+  position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
